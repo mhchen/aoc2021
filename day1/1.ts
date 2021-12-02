@@ -1,7 +1,6 @@
-import fs from 'fs';
+import { parseInput } from '../utils';
 
-const lines = fs.readFileSync(`${__dirname}/input`, 'utf-8').split('\n');
-const readings = lines.map(Number);
+const readings = parseInput().map(Number);
 
 let lastReading = Infinity;
 let increasesCount = 0;

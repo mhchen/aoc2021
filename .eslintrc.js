@@ -29,6 +29,7 @@ module.exports = {
     'import/extensions': 0,
     'no-await-in-loop': 0,
     'no-continue': 0,
+    'no-labels': 0,
     'no-restricted-syntax': 0,
     'no-plusplus': 0,
     'no-void': 0,

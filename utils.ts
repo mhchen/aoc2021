@@ -31,7 +31,8 @@ export class Grid<T extends string | number> {
     row.set(y, value);
 
     if (x > this.maxX) {
-      this.maxX = x; }
+      this.maxX = x;
+    }
     if (x < this.minX) {
       this.minX = x;
     }
@@ -47,10 +48,57 @@ export class Grid<T extends string | number> {
     return this.data.get(x)?.get(y);
   }
 
+  *adjacent(x: number, y: number) {
+    for (const { x: x2, y: y2 } of [
+      {
+        x: x - 1,
+        y: y - 1,
+      },
+      {
+        x,
+        y: y - 1,
+      },
+      {
+        x: x + 1,
+        y: y - 1,
+      },
+      {
+        x: x - 1,
+        y,
+      },
+      {
+        x,
+        y,
+      },
+      {
+        x: x + 1,
+        y,
+      },
+      {
+        x: x - 1,
+        y: y + 1,
+      },
+      {
+        x,
+        y: y + 1,
+      },
+      {
+        x: x + 1,
+        y: y + 1,
+      },
+    ]) {
+      const value = this.get(x2, y2);
+
+      if (value != null) {
+        yield { x: x2, y: y2, value };
+      }
+    }
+  }
+
   *[Symbol.iterator]() {
     for (let y = this.minY; y <= this.maxY; y++) {
       for (let x = this.minX; x <= this.maxX; x++) {
-        yield this.get(x, y);
+        yield { x, y, value: this.get(x, y) };
       }
     }
   }
@@ -59,8 +107,13 @@ export class Grid<T extends string | number> {
     for (let y = this.minY; y <= this.maxY; y++) {
       for (let x = this.minX; x <= this.maxX; x++) {
         process.stdout.write(this.get(x, y)?.toString() || '.');
+        process.stdout.write(' ');
       }
       process.stdout.write('\n');
     }
+  }
+
+  size() {
+    return (this.maxY  + 1 - this.minY) * (this.maxX  + 1 - this.minX);
   }
 }

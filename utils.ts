@@ -114,6 +114,6 @@ export class Grid<T extends string | number> {
   }
 
   size() {
-    return (this.maxY  + 1 - this.minY) * (this.maxX  + 1 - this.minX);
+    return (this.maxY + 1 - this.minY) * (this.maxX + 1 - this.minX);
   }
 }

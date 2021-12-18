@@ -1,0 +1,399 @@
+{ nextDistance: 2, minDistance: 2, innerX: 1, innerY: 0 }
+{ nextDistance: 9, minDistance: 2, innerX: 0, innerY: 1 }
+{ x: 1, y: 0 }
+{ nextDistance: 9, minDistance: 9, innerX: 2, innerY: 0 }
+{ nextDistance: 0, minDistance: 0, innerX: 0, innerY: 0 }
+{ nextDistance: 4, minDistance: 0, innerX: 1, innerY: 1 }
+{ x: 2, y: 0 }
+{ nextDistance: 16, minDistance: 16, innerX: 3, innerY: 0 }
+{ nextDistance: 2, minDistance: 2, innerX: 1, innerY: 0 }
+{ nextDistance: 16, minDistance: 2, innerX: 2, innerY: 1 }
+{ x: 3, y: 0 }
+{ nextDistance: 22, minDistance: 22, innerX: 4, innerY: 0 }
+{ nextDistance: 9, minDistance: 9, innerX: 2, innerY: 0 }
+{ nextDistance: 17, minDistance: 9, innerX: 3, innerY: 1 }
+{ x: 4, y: 0 }
+{ nextDistance: 23, minDistance: 23, innerX: 5, innerY: 0 }
+{ nextDistance: 16, minDistance: 16, innerX: 3, innerY: 0 }
+{ nextDistance: 25, minDistance: 16, innerX: 4, innerY: 1 }
+{ x: 5, y: 0 }
+{ nextDistance: 25, minDistance: 25, innerX: 6, innerY: 0 }
+{ nextDistance: 22, minDistance: 22, innerX: 4, innerY: 0 }
+{ nextDistance: 32, minDistance: 22, innerX: 5, innerY: 1 }
+{ x: 6, y: 0 }
+{ nextDistance: 27, minDistance: 27, innerX: 7, innerY: 0 }
+{ nextDistance: 23, minDistance: 23, innerX: 5, innerY: 0 }
+{ nextDistance: 28, minDistance: 23, innerX: 6, innerY: 1 }
+{ x: 7, y: 0 }
+{ nextDistance: 36, minDistance: 36, innerX: 8, innerY: 0 }
+{ nextDistance: 25, minDistance: 25, innerX: 6, innerY: 0 }
+{ nextDistance: 28, minDistance: 25, innerX: 7, innerY: 1 }
+{ x: 8, y: 0 }
+{ nextDistance: 39, minDistance: 39, innerX: 9, innerY: 0 }
+{ nextDistance: 27, minDistance: 27, innerX: 7, innerY: 0 }
+{ nextDistance: 39, minDistance: 27, innerX: 8, innerY: 1 }
+{ x: 9, y: 0 }
+{ nextDistance: 45, minDistance: 45, innerX: 10, innerY: 0 }
+{ nextDistance: 36, minDistance: 36, innerX: 8, innerY: 0 }
+{ nextDistance: 40, minDistance: 36, innerX: 9, innerY: 1 }
+{ x: 10, y: 0 }
+{ nextDistance: 51, minDistance: 51, innerX: 11, innerY: 0 }
+{ nextDistance: 39, minDistance: 39, innerX: 9, innerY: 0 }
+{ nextDistance: 50, minDistance: 39, innerX: 10, innerY: 1 }
+{ x: 11, y: 0 }
+{ nextDistance: 54, minDistance: 54, innerX: 12, innerY: 0 }
+{ nextDistance: 45, minDistance: 45, innerX: 10, innerY: 0 }
+{ nextDistance: 53, minDistance: 45, innerX: 11, innerY: 1 }
+{ x: 12, y: 0 }
+{ nextDistance: 57, minDistance: 57, innerX: 13, innerY: 0 }
+{ nextDistance: 51, minDistance: 51, innerX: 11, innerY: 0 }
+{ nextDistance: 56, minDistance: 51, innerX: 12, innerY: 1 }
+{ x: 13, y: 0 }
+{ nextDistance: 64, minDistance: 64, innerX: 14, innerY: 0 }
+{ nextDistance: 54, minDistance: 54, innerX: 12, innerY: 0 }
+{ nextDistance: 63, minDistance: 54, innerX: 13, innerY: 1 }
+{ x: 14, y: 0 }
+{ nextDistance: 72, minDistance: 72, innerX: 15, innerY: 0 }
+{ nextDistance: 57, minDistance: 57, innerX: 13, innerY: 0 }
+{ nextDistance: 67, minDistance: 57, innerX: 14, innerY: 1 }
+{ x: 15, y: 0 }
+{ nextDistance: 73, minDistance: 73, innerX: 16, innerY: 0 }
+{ nextDistance: 64, minDistance: 64, innerX: 14, innerY: 0 }
+{ nextDistance: 77, minDistance: 64, innerX: 15, innerY: 1 }
+{ x: 16, y: 0 }
+{ nextDistance: 74, minDistance: 74, innerX: 17, innerY: 0 }
+{ nextDistance: 72, minDistance: 72, innerX: 15, innerY: 0 }
+{ nextDistance: 75, minDistance: 72, innerX: 16, innerY: 1 }
+{ x: 17, y: 0 }
+{ nextDistance: 81, minDistance: 81, innerX: 18, innerY: 0 }
+{ nextDistance: 73, minDistance: 73, innerX: 16, innerY: 0 }
+{ nextDistance: 77, minDistance: 73, innerX: 17, innerY: 1 }
+{ x: 18, y: 0 }
+{ nextDistance: 87, minDistance: 87, innerX: 19, innerY: 0 }
+{ nextDistance: 74, minDistance: 74, innerX: 17, innerY: 0 }
+{ nextDistance: 82, minDistance: 74, innerX: 18, innerY: 1 }
+{ x: 19, y: 0 }
+{ nextDistance: 88, minDistance: 88, innerX: 20, innerY: 0 }
+{ nextDistance: 81, minDistance: 81, innerX: 18, innerY: 0 }
+{ nextDistance: 88, minDistance: 81, innerX: 19, innerY: 1 }
+{ x: 20, y: 0 }
+{ nextDistance: 96, minDistance: 96, innerX: 21, innerY: 0 }
+{ nextDistance: 87, minDistance: 87, innerX: 19, innerY: 0 }
+{ nextDistance: 91, minDistance: 87, innerX: 20, innerY: 1 }
+{ x: 21, y: 0 }
+{ nextDistance: 101, minDistance: 101, innerX: 22, innerY: 0 }
+{ nextDistance: 88, minDistance: 88, innerX: 20, innerY: 0 }
+{ nextDistance: 100, minDistance: 88, innerX: 21, innerY: 1 }
+{ x: 22, y: 0 }
+{ nextDistance: 105, minDistance: 105, innerX: 23, innerY: 0 }
+{ nextDistance: 96, minDistance: 96, innerX: 21, innerY: 0 }
+{ nextDistance: 110, minDistance: 96, innerX: 22, innerY: 1 }
+{ x: 23, y: 0 }
+{ nextDistance: 114, minDistance: 114, innerX: 24, innerY: 0 }
+{ nextDistance: 101, minDistance: 101, innerX: 22, innerY: 0 }
+{ nextDistance: 107, minDistance: 101, innerX: 23, innerY: 1 }
+{ x: 24, y: 0 }
+{ nextDistance: 122, minDistance: 122, innerX: 25, innerY: 0 }
+{ nextDistance: 105, minDistance: 105, innerX: 23, innerY: 0 }
+{ nextDistance: 117, minDistance: 105, innerX: 24, innerY: 1 }
+{ x: 25, y: 0 }
+{ nextDistance: 124, minDistance: 124, innerX: 26, innerY: 0 }
+{ nextDistance: 114, minDistance: 114, innerX: 24, innerY: 0 }
+{ nextDistance: 130, minDistance: 114, innerX: 25, innerY: 1 }
+{ x: 26, y: 0 }
+{ nextDistance: 132, minDistance: 132, innerX: 27, innerY: 0 }
+{ nextDistance: 122, minDistance: 122, innerX: 25, innerY: 0 }
+{ nextDistance: 132, minDistance: 122, innerX: 26, innerY: 1 }
+{ x: 27, y: 0 }
+{ nextDistance: 138, minDistance: 138, innerX: 28, innerY: 0 }
+{ nextDistance: 124, minDistance: 124, innerX: 26, innerY: 0 }
+{ nextDistance: 140, minDistance: 124, innerX: 27, innerY: 1 }
+{ x: 28, y: 0 }
+{ nextDistance: 145, minDistance: 145, innerX: 29, innerY: 0 }
+{ nextDistance: 132, minDistance: 132, innerX: 27, innerY: 0 }
+{ nextDistance: 142, minDistance: 132, innerX: 28, innerY: 1 }
+{ x: 29, y: 0 }
+{ nextDistance: 154, minDistance: 154, innerX: 30, innerY: 0 }
+{ nextDistance: 138, minDistance: 138, innerX: 28, innerY: 0 }
+{ nextDistance: 154, minDistance: 138, innerX: 29, innerY: 1 }
+{ x: 30, y: 0 }
+{ nextDistance: 163, minDistance: 163, innerX: 31, innerY: 0 }
+{ nextDistance: 145, minDistance: 145, innerX: 29, innerY: 0 }
+{ nextDistance: 159, minDistance: 145, innerX: 30, innerY: 1 }
+{ x: 31, y: 0 }
+{ nextDistance: 164, minDistance: 164, innerX: 32, innerY: 0 }
+{ nextDistance: 154, minDistance: 154, innerX: 30, innerY: 0 }
+{ nextDistance: 170, minDistance: 154, innerX: 31, innerY: 1 }
+{ x: 32, y: 0 }
+{ nextDistance: 172, minDistance: 172, innerX: 33, innerY: 0 }
+{ nextDistance: 163, minDistance: 163, innerX: 31, innerY: 0 }
+{ nextDistance: 167, minDistance: 163, innerX: 32, innerY: 1 }
+{ x: 33, y: 0 }
+{ nextDistance: 174, minDistance: 174, innerX: 34, innerY: 0 }
+{ nextDistance: 164, minDistance: 164, innerX: 32, innerY: 0 }
+{ nextDistance: 181, minDistance: 164, innerX: 33, innerY: 1 }
+{ x: 34, y: 0 }
+{ nextDistance: 181, minDistance: 181, innerX: 35, innerY: 0 }
+{ nextDistance: 172, minDistance: 172, innerX: 33, innerY: 0 }
+{ nextDistance: 176, minDistance: 172, innerX: 34, innerY: 1 }
+{ x: 35, y: 0 }
+{ nextDistance: 185, minDistance: 185, innerX: 36, innerY: 0 }
+{ nextDistance: 174, minDistance: 174, innerX: 34, innerY: 0 }
+{ nextDistance: 185, minDistance: 174, innerX: 35, innerY: 1 }
+{ x: 36, y: 0 }
+{ nextDistance: 193, minDistance: 193, innerX: 37, innerY: 0 }
+{ nextDistance: 181, minDistance: 181, innerX: 35, innerY: 0 }
+{ nextDistance: 188, minDistance: 181, innerX: 36, innerY: 1 }
+{ x: 37, y: 0 }
+{ nextDistance: 195, minDistance: 195, innerX: 38, innerY: 0 }
+{ nextDistance: 185, minDistance: 185, innerX: 36, innerY: 0 }
+{ nextDistance: 197, minDistance: 185, innerX: 37, innerY: 1 }
+{ x: 38, y: 0 }
+{ nextDistance: 197, minDistance: 197, innerX: 39, innerY: 0 }
+{ nextDistance: 193, minDistance: 193, innerX: 37, innerY: 0 }
+{ nextDistance: 204, minDistance: 193, innerX: 38, innerY: 1 }
+{ x: 39, y: 0 }
+{ nextDistance: 201, minDistance: 201, innerX: 40, innerY: 0 }
+{ nextDistance: 195, minDistance: 195, innerX: 38, innerY: 0 }
+{ nextDistance: 205, minDistance: 195, innerX: 39, innerY: 1 }
+{ x: 40, y: 0 }
+{ nextDistance: 210, minDistance: 210, innerX: 41, innerY: 0 }
+{ nextDistance: 197, minDistance: 197, innerX: 39, innerY: 0 }
+{ nextDistance: 207, minDistance: 197, innerX: 40, innerY: 1 }
+{ x: 41, y: 0 }
+{ nextDistance: 215, minDistance: 215, innerX: 42, innerY: 0 }
+{ nextDistance: 201, minDistance: 201, innerX: 40, innerY: 0 }
+{ nextDistance: 219, minDistance: 201, innerX: 41, innerY: 1 }
+{ x: 42, y: 0 }
+{ nextDistance: 218, minDistance: 218, innerX: 43, innerY: 0 }
+{ nextDistance: 210, minDistance: 210, innerX: 41, innerY: 0 }
+{ nextDistance: 217, minDistance: 210, innerX: 42, innerY: 1 }
+{ x: 43, y: 0 }
+{ nextDistance: 219, minDistance: 219, innerX: 44, innerY: 0 }
+{ nextDistance: 215, minDistance: 215, innerX: 42, innerY: 0 }
+{ nextDistance: 220, minDistance: 215, innerX: 43, innerY: 1 }
+{ x: 44, y: 0 }
+{ nextDistance: 220, minDistance: 220, innerX: 45, innerY: 0 }
+{ nextDistance: 218, minDistance: 218, innerX: 43, innerY: 0 }
+{ nextDistance: 225, minDistance: 218, innerX: 44, innerY: 1 }
+{ x: 45, y: 0 }
+{ nextDistance: 228, minDistance: 228, innerX: 46, innerY: 0 }
+{ nextDistance: 219, minDistance: 219, innerX: 44, innerY: 0 }
+{ nextDistance: 223, minDistance: 219, innerX: 45, innerY: 1 }
+{ x: 46, y: 0 }
+{ nextDistance: 232, minDistance: 232, innerX: 47, innerY: 0 }
+{ nextDistance: 220, minDistance: 220, innerX: 45, innerY: 0 }
+{ nextDistance: 237, minDistance: 220, innerX: 46, innerY: 1 }
+{ x: 47, y: 0 }
+{ nextDistance: 233, minDistance: 233, innerX: 48, innerY: 0 }
+{ nextDistance: 228, minDistance: 228, innerX: 46, innerY: 0 }
+{ nextDistance: 234, minDistance: 228, innerX: 47, innerY: 1 }
+{ x: 48, y: 0 }
+{ nextDistance: 242, minDistance: 242, innerX: 49, innerY: 0 }
+{ nextDistance: 232, minDistance: 232, innerX: 47, innerY: 0 }
+{ nextDistance: 235, minDistance: 232, innerX: 48, innerY: 1 }
+{ x: 49, y: 0 }
+{ nextDistance: 251, minDistance: 251, innerX: 50, innerY: 0 }
+{ nextDistance: 233, minDistance: 233, innerX: 48, innerY: 0 }
+{ nextDistance: 249, minDistance: 233, innerX: 49, innerY: 1 }
+{ x: 50, y: 0 }
+{ nextDistance: 258, minDistance: 258, innerX: 51, innerY: 0 }
+{ nextDistance: 242, minDistance: 242, innerX: 49, innerY: 0 }
+{ nextDistance: 257, minDistance: 242, innerX: 50, innerY: 1 }
+{ x: 51, y: 0 }
+{ nextDistance: 259, minDistance: 259, innerX: 52, innerY: 0 }
+{ nextDistance: 251, minDistance: 251, innerX: 50, innerY: 0 }
+{ nextDistance: 264, minDistance: 251, innerX: 51, innerY: 1 }
+{ x: 52, y: 0 }
+{ nextDistance: 267, minDistance: 267, innerX: 53, innerY: 0 }
+{ nextDistance: 258, minDistance: 258, innerX: 51, innerY: 0 }
+{ nextDistance: 265, minDistance: 258, innerX: 52, innerY: 1 }
+{ x: 53, y: 0 }
+{ nextDistance: 276, minDistance: 276, innerX: 54, innerY: 0 }
+{ nextDistance: 259, minDistance: 259, innerX: 52, innerY: 0 }
+{ nextDistance: 275, minDistance: 259, innerX: 53, innerY: 1 }
+{ x: 54, y: 0 }
+{ nextDistance: 283, minDistance: 283, innerX: 55, innerY: 0 }
+{ nextDistance: 267, minDistance: 267, innerX: 53, innerY: 0 }
+{ nextDistance: 277, minDistance: 267, innerX: 54, innerY: 1 }
+{ x: 55, y: 0 }
+{ nextDistance: 286, minDistance: 286, innerX: 56, innerY: 0 }
+{ nextDistance: 276, minDistance: 276, innerX: 54, innerY: 0 }
+{ nextDistance: 290, minDistance: 276, innerX: 55, innerY: 1 }
+{ x: 56, y: 0 }
+{ nextDistance: 295, minDistance: 295, innerX: 57, innerY: 0 }
+{ nextDistance: 283, minDistance: 283, innerX: 55, innerY: 0 }
+{ nextDistance: 288, minDistance: 283, innerX: 56, innerY: 1 }
+{ x: 57, y: 0 }
+{ nextDistance: 303, minDistance: 303, innerX: 58, innerY: 0 }
+{ nextDistance: 286, minDistance: 286, innerX: 56, innerY: 0 }
+{ nextDistance: 304, minDistance: 286, innerX: 57, innerY: 1 }
+{ x: 58, y: 0 }
+{ nextDistance: 307, minDistance: 307, innerX: 59, innerY: 0 }
+{ nextDistance: 295, minDistance: 295, innerX: 57, innerY: 0 }
+{ nextDistance: 311, minDistance: 295, innerX: 58, innerY: 1 }
+{ x: 59, y: 0 }
+{ nextDistance: 309, minDistance: 309, innerX: 60, innerY: 0 }
+{ nextDistance: 303, minDistance: 303, innerX: 58, innerY: 0 }
+{ nextDistance: 312, minDistance: 303, innerX: 59, innerY: 1 }
+{ x: 60, y: 0 }
+{ nextDistance: 310, minDistance: 310, innerX: 61, innerY: 0 }
+{ nextDistance: 307, minDistance: 307, innerX: 59, innerY: 0 }
+{ nextDistance: 314, minDistance: 307, innerX: 60, innerY: 1 }
+{ x: 61, y: 0 }
+{ nextDistance: 318, minDistance: 318, innerX: 62, innerY: 0 }
+{ nextDistance: 309, minDistance: 309, innerX: 60, innerY: 0 }
+{ nextDistance: 319, minDistance: 309, innerX: 61, innerY: 1 }
+{ x: 62, y: 0 }
+{ nextDistance: 327, minDistance: 327, innerX: 63, innerY: 0 }
+{ nextDistance: 310, minDistance: 310, innerX: 61, innerY: 0 }
+{ nextDistance: 320, minDistance: 310, innerX: 62, innerY: 1 }
+{ x: 63, y: 0 }
+{ nextDistance: 336, minDistance: 336, innerX: 64, innerY: 0 }
+{ nextDistance: 318, minDistance: 318, innerX: 62, innerY: 0 }
+{ nextDistance: 331, minDistance: 318, innerX: 63, innerY: 1 }
+{ x: 64, y: 0 }
+{ nextDistance: 343, minDistance: 343, innerX: 65, innerY: 0 }
+{ nextDistance: 327, minDistance: 327, innerX: 63, innerY: 0 }
+{ nextDistance: 339, minDistance: 327, innerX: 64, innerY: 1 }
+{ x: 65, y: 0 }
+{ nextDistance: 352, minDistance: 352, innerX: 66, innerY: 0 }
+{ nextDistance: 336, minDistance: 336, innerX: 64, innerY: 0 }
+{ nextDistance: 345, minDistance: 336, innerX: 65, innerY: 1 }
+{ x: 66, y: 0 }
+{ nextDistance: 361, minDistance: 361, innerX: 67, innerY: 0 }
+{ nextDistance: 343, minDistance: 343, innerX: 65, innerY: 0 }
+{ nextDistance: 361, minDistance: 343, innerX: 66, innerY: 1 }
+{ x: 67, y: 0 }
+{ nextDistance: 363, minDistance: 363, innerX: 68, innerY: 0 }
+{ nextDistance: 352, minDistance: 352, innerX: 66, innerY: 0 }
+{ nextDistance: 362, minDistance: 352, innerX: 67, innerY: 1 }
+{ x: 68, y: 0 }
+{ nextDistance: 372, minDistance: 372, innerX: 69, innerY: 0 }
+{ nextDistance: 361, minDistance: 361, innerX: 67, innerY: 0 }
+{ nextDistance: 368, minDistance: 361, innerX: 68, innerY: 1 }
+{ x: 69, y: 0 }
+{ nextDistance: 381, minDistance: 381, innerX: 70, innerY: 0 }
+{ nextDistance: 363, minDistance: 363, innerX: 68, innerY: 0 }
+{ nextDistance: 379, minDistance: 363, innerX: 69, innerY: 1 }
+{ x: 70, y: 0 }
+{ nextDistance: 383, minDistance: 383, innerX: 71, innerY: 0 }
+{ nextDistance: 372, minDistance: 372, innerX: 69, innerY: 0 }
+{ nextDistance: 385, minDistance: 372, innerX: 70, innerY: 1 }
+{ x: 71, y: 0 }
+{ nextDistance: 386, minDistance: 386, innerX: 72, innerY: 0 }
+{ nextDistance: 381, minDistance: 381, innerX: 70, innerY: 0 }
+{ nextDistance: 391, minDistance: 381, innerX: 71, innerY: 1 }
+{ x: 72, y: 0 }
+{ nextDistance: 391, minDistance: 391, innerX: 73, innerY: 0 }
+{ nextDistance: 383, minDistance: 383, innerX: 71, innerY: 0 }
+{ nextDistance: 387, minDistance: 383, innerX: 72, innerY: 1 }
+{ x: 73, y: 0 }
+{ nextDistance: 392, minDistance: 392, innerX: 74, innerY: 0 }
+{ nextDistance: 386, minDistance: 386, innerX: 72, innerY: 0 }
+{ nextDistance: 399, minDistance: 386, innerX: 73, innerY: 1 }
+{ x: 74, y: 0 }
+{ nextDistance: 401, minDistance: 401, innerX: 75, innerY: 0 }
+{ nextDistance: 391, minDistance: 391, innerX: 73, innerY: 0 }
+{ nextDistance: 401, minDistance: 391, innerX: 74, innerY: 1 }
+{ x: 75, y: 0 }
+{ nextDistance: 408, minDistance: 408, innerX: 76, innerY: 0 }
+{ nextDistance: 392, minDistance: 392, innerX: 74, innerY: 0 }
+{ nextDistance: 403, minDistance: 392, innerX: 75, innerY: 1 }
+{ x: 76, y: 0 }
+{ nextDistance: 413, minDistance: 413, innerX: 77, innerY: 0 }
+{ nextDistance: 401, minDistance: 401, innerX: 75, innerY: 0 }
+{ nextDistance: 410, minDistance: 401, innerX: 76, innerY: 1 }
+{ x: 77, y: 0 }
+{ nextDistance: 419, minDistance: 419, innerX: 78, innerY: 0 }
+{ nextDistance: 408, minDistance: 408, innerX: 76, innerY: 0 }
+{ nextDistance: 418, minDistance: 408, innerX: 77, innerY: 1 }
+{ x: 78, y: 0 }
+{ nextDistance: 425, minDistance: 425, innerX: 79, innerY: 0 }
+{ nextDistance: 413, minDistance: 413, innerX: 77, innerY: 0 }
+{ nextDistance: 428, minDistance: 413, innerX: 78, innerY: 1 }
+{ x: 79, y: 0 }
+{ nextDistance: 426, minDistance: 426, innerX: 80, innerY: 0 }
+{ nextDistance: 419, minDistance: 419, innerX: 78, innerY: 0 }
+{ nextDistance: 427, minDistance: 419, innerX: 79, innerY: 1 }
+{ x: 80, y: 0 }
+{ nextDistance: 430, minDistance: 430, innerX: 81, innerY: 0 }
+{ nextDistance: 425, minDistance: 425, innerX: 79, innerY: 0 }
+{ nextDistance: 435, minDistance: 425, innerX: 80, innerY: 1 }
+{ x: 81, y: 0 }
+{ nextDistance: 434, minDistance: 434, innerX: 82, innerY: 0 }
+{ nextDistance: 426, minDistance: 426, innerX: 80, innerY: 0 }
+{ nextDistance: 437, minDistance: 426, innerX: 81, innerY: 1 }
+{ x: 82, y: 0 }
+{ nextDistance: 443, minDistance: 443, innerX: 83, innerY: 0 }
+{ nextDistance: 430, minDistance: 430, innerX: 81, innerY: 0 }
+{ nextDistance: 441, minDistance: 430, innerX: 82, innerY: 1 }
+{ x: 83, y: 0 }
+{ nextDistance: 448, minDistance: 448, innerX: 84, innerY: 0 }
+{ nextDistance: 434, minDistance: 434, innerX: 82, innerY: 0 }
+{ nextDistance: 448, minDistance: 434, innerX: 83, innerY: 1 }
+{ x: 84, y: 0 }
+{ nextDistance: 454, minDistance: 454, innerX: 85, innerY: 0 }
+{ nextDistance: 443, minDistance: 443, innerX: 83, innerY: 0 }
+{ nextDistance: 456, minDistance: 443, innerX: 84, innerY: 1 }
+{ x: 85, y: 0 }
+{ nextDistance: 463, minDistance: 463, innerX: 86, innerY: 0 }
+{ nextDistance: 448, minDistance: 448, innerX: 84, innerY: 0 }
+{ nextDistance: 456, minDistance: 448, innerX: 85, innerY: 1 }
+{ x: 86, y: 0 }
+{ nextDistance: 467, minDistance: 467, innerX: 87, innerY: 0 }
+{ nextDistance: 454, minDistance: 454, innerX: 85, innerY: 0 }
+{ nextDistance: 465, minDistance: 454, innerX: 86, innerY: 1 }
+{ x: 87, y: 0 }
+{ nextDistance: 476, minDistance: 476, innerX: 88, innerY: 0 }
+{ nextDistance: 463, minDistance: 463, innerX: 86, innerY: 0 }
+{ nextDistance: 474, minDistance: 463, innerX: 87, innerY: 1 }
+{ x: 88, y: 0 }
+{ nextDistance: 478, minDistance: 478, innerX: 89, innerY: 0 }
+{ nextDistance: 467, minDistance: 467, innerX: 87, innerY: 0 }
+{ nextDistance: 482, minDistance: 467, innerX: 88, innerY: 1 }
+{ x: 89, y: 0 }
+{ nextDistance: 487, minDistance: 487, innerX: 90, innerY: 0 }
+{ nextDistance: 476, minDistance: 476, innerX: 88, innerY: 0 }
+{ nextDistance: 483, minDistance: 476, innerX: 89, innerY: 1 }
+{ x: 90, y: 0 }
+{ nextDistance: 488, minDistance: 488, innerX: 91, innerY: 0 }
+{ nextDistance: 478, minDistance: 478, innerX: 89, innerY: 0 }
+{ nextDistance: 492, minDistance: 478, innerX: 90, innerY: 1 }
+{ x: 91, y: 0 }
+{ nextDistance: 490, minDistance: 490, innerX: 92, innerY: 0 }
+{ nextDistance: 487, minDistance: 487, innerX: 90, innerY: 0 }
+{ nextDistance: 492, minDistance: 487, innerX: 91, innerY: 1 }
+{ x: 92, y: 0 }
+{ nextDistance: 494, minDistance: 494, innerX: 93, innerY: 0 }
+{ nextDistance: 488, minDistance: 488, innerX: 91, innerY: 0 }
+{ nextDistance: 498, minDistance: 488, innerX: 92, innerY: 1 }
+{ x: 93, y: 0 }
+{ nextDistance: 499, minDistance: 499, innerX: 94, innerY: 0 }
+{ nextDistance: 490, minDistance: 490, innerX: 92, innerY: 0 }
+{ nextDistance: 495, minDistance: 490, innerX: 93, innerY: 1 }
+{ x: 94, y: 0 }
+{ nextDistance: 500, minDistance: 500, innerX: 95, innerY: 0 }
+{ nextDistance: 494, minDistance: 494, innerX: 93, innerY: 0 }
+{ nextDistance: 508, minDistance: 494, innerX: 94, innerY: 1 }
+{ x: 95, y: 0 }
+{ nextDistance: 509, minDistance: 509, innerX: 96, innerY: 0 }
+{ nextDistance: 499, minDistance: 499, innerX: 94, innerY: 0 }
+{ nextDistance: 501, minDistance: 499, innerX: 95, innerY: 1 }
+{ x: 96, y: 0 }
+{ nextDistance: 518, minDistance: 518, innerX: 97, innerY: 0 }
+{ nextDistance: 500, minDistance: 500, innerX: 95, innerY: 0 }
+{ nextDistance: 518, minDistance: 500, innerX: 96, innerY: 1 }
+{ x: 97, y: 0 }
+{ nextDistance: 525, minDistance: 525, innerX: 98, innerY: 0 }
+{ nextDistance: 509, minDistance: 509, innerX: 96, innerY: 0 }
+{ nextDistance: 520, minDistance: 509, innerX: 97, innerY: 1 }
+{ x: 98, y: 0 }
+{ nextDistance: 531, minDistance: 531, innerX: 99, innerY: 0 }
+{ nextDistance: 518, minDistance: 518, innerX: 97, innerY: 0 }
+{ nextDistance: 526, minDistance: 518, innerX: 98, innerY: 1 }
+{ x: 99, y: 0 }
+{ nextDistance: 525, minDistance: 525, innerX: 98, innerY: 0 }
+{ nextDistance: 540, minDistance: 525, innerX: 99, innerY: 1 }
+{ x: 99, y: 99 }
+99 99

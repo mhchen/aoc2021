@@ -2,69 +2,83 @@ import { Grid, parseInput } from '../utils';
 
 const lines = parseInput();
 
+interface Node {
+  x: number;
+  y: number;
+  visited: boolean;
+  distance: number;
+}
+
+function createKey(x: number, y: number) {
+  return `${x},${y}`;
+}
+
+const nodeMap = new Map<string, Node>();
 const grid = new Grid<number>();
 
 for (const [y, line] of lines.entries()) {
   for (const [x, riskLevelString] of [...line].entries()) {
     grid.set(x, y, Number(riskLevelString));
+    nodeMap.set(createKey(x, y), {
+      x,
+      y,
+      visited: false,
+      distance: Infinity,
+    });
   }
 }
-let isFirst = true;
+nodeMap.get('0,0')!.distance = 0;
+let node = nodeMap.get('0,0');
+while (true) {
+  const { x, y } = node!;
+  const key = createKey(x, y);
+  const { distance } = nodeMap.get(key)!;
 
-let currentLowestRisk = Infinity;
-
-const visited = new Set<string>();
-const distances: Record<string, number> = {};
-
-function getDistance(x: number, y: number) {
-  const 
-}
-
-function traverse(
-  x: number,
-  y: number,
-  oldRisk = 0,
-  oldVisited: Set<string> = new Set(),
-): number | null {
-  const key = `${x},${y}`;
-  const distance = distances[key] ?? Infinity;
-  const rightKey = `${x + 1},${y}`;
-  const downKey = `${x},${y + 1}`;
-
-  const rightDistance = Math.min(distances[rightKey] ?? Infinity);
-  const downDistance = Math.min(distances[downKey] ?? Infinity);
-  const down = traverse(x, y + 1, newRisk, visited);
-  visited.add(key);
-
-  const risk = grid.get(x, y);
-  if (oldVisited.has(key) || risk == null) {
-    return null;
-  }
-  const newRisk = oldRisk + (isFirst ? 0 : risk);
-  if (newRisk > currentLowestRisk) {
-    return null;
-  }
-  isFirst = false;
-
-  if (x === grid.maxX && y === grid.maxY) {
-    if (newRisk === 0) {
-      throw new Error('New risk is 0');
+  for (const { x: innerX, y: innerY } of [
+    {
+      x: x + 1,
+      y,
+    },
+    {
+      x: x - 1,
+      y,
+    },
+    {
+      x,
+      y: y + 1,
+    },
+    {
+      x,
+      y: y - 1,
+    },
+  ]) {
+    const innerKey = createKey(innerX, innerY);
+    const innerNode = nodeMap.get(innerKey);
+    if (!innerNode) {
+      continue;
     }
-    console.log(newRisk);
-    return newRisk;
+
+    const nextDistance = Math.min(
+      distance + grid.get(innerX, innerY)! || Infinity,
+      innerNode.distance,
+    );
+    innerNode.distance = nextDistance;
   }
-  const directions: (number | null)[] = [];
-  if (right) {
-    directions.push(right);
+
+  let currentMinNode: Node | null = null;
+
+  for (const innerNode of nodeMap.values()) {
+    if (innerNode.distance < (currentMinNode?.distance || Infinity)) {
+      currentMinNode = innerNode;
+    }
   }
-  if (down) {
-    directions.push(down);
+  if (currentMinNode!.x === grid.maxX && currentMinNode!.y === grid.maxY) {
+    break;
   }
-  const lowestRisk = Math.min(...(directions as number[]));
-  if (lowestRisk < currentLowestRisk) {
-    currentLowestRisk = lowestRisk;
-  }
-  return lowestRisk;
+
+  node!.visited = true;
+  console.log(node!.x, node!.y);
+  node = currentMinNode!;
 }
 
-console.log(traverse(0, 0));
+console.log(node);
